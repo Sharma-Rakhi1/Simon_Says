@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 1.2rem;
+}
+
+h2, h3 {
+  font-weight: normal;
+  margin: 0.5rem;
+  color: #555;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1), -5px -5px 15px rgba(255,255,255,0.7);
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.line-one, .line-two {
+  display: flex;
+}
+
+.btn {
+  height: 120px;
+  width: 120px;
+  margin: 0.8rem;
+  border-radius: 20%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  color: #222;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.red {
+  background-color: #f67280;
+}
+
+.yellow {
+  background-color: #fff176;
+}
+
+.green {
+  background-color: #81c784;
+}
+
+.blue {
+  background-color: #64b5f6;
+}
+
+.flash {
+  background-color: white !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7) !important;
+}
+
+.userflash {
+  background-color: #ffeaa7 !important;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 234, 167, 0.9) !important;
+}
+
+
+@media (max-width: 600px) {
+  .btn {
+    height: 90px;
+    width: 90px;
+    font-size: 1.1rem;
+  }
+}
