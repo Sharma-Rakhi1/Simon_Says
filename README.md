@@ -17,6 +17,11 @@ You have to remember the color pattern and repeat it by clicking the buttons. Th
 - CSS
 - JavaScript
 
+## 🔗 Live Demo
+
+[Click here to play the game!](https://simon-says-opal.vercel.app/)
+
+
 ---
 
 Thanks for checking it out!
